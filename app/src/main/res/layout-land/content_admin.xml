@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Basecolor">
+
+    <ImageView
+
+        android:layout_width="0dp"
+        android:layout_weight="1.2"
+        android:layout_height="match_parent"
+
+        android:id="@+id/buttonAdd"
+        android:src="@drawable/additem" />
+
+    <ImageView
+
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:id="@+id/buttonDelete"
+        android:src="@drawable/del2" />
+
+
+
+
+</LinearLayout>
